@@ -7,18 +7,19 @@
 </head>
 <body>
     <form>
-        <h2>Encuesta Rápida</h2>
+        <h2>Formulario con listas y área de texto</h2>
 
-        Genero: <br>
-        <input type="radio" name="genero" value="M">Masculino <br>
-        <input type="radio" name="genero" value="F">Femenino <br>
-        <input type="radio" name="genero" value="O">Otro <br>
-
-        Hobbies: <br>
-        <input type="checkbox" name="hobby1" value="musica">Música <br>
-        <input type="checkbox" name="hobby2" value="musica">Deporte <br>
-        <input type="checkbox" name="hobby3" value="musica">Lectura <br>
+        País: <br>
+        <select>
+            <option value="bo">Bolivia</option>
+            <option value="ar">Argentina</option>
+            <option value="pr">perú</option>
+            <option value="me">México</option>
+        </select>
+        <br><br>
+        Comentarios: <br>
+        <textarea rows="5" cols="40" placeholder="De qué pais eres"></textarea><br><br>
         <br>
-        <input type="submit" value="Guardar">
+        <input type="submit" value="Enviar">
     </form>
 </html>
